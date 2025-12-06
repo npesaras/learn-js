@@ -61,3 +61,17 @@ game_time += 10;
 
 console.log(shot_clock); //14
 console.log(game_time); // 20
+
+
+/*
+Undefined vs Null
+
+undefined - doesn't exist at all.
+null - it (kind of ) exist.
+*/
+
+let undefined_name; // no assigned value
+let null_age = null; 
+
+console.log(undefined_name);
+console.log(null_age);
