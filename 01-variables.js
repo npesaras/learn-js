@@ -46,3 +46,18 @@ let averageMessageSent = (totalMessagesSent)/4;
 
 console.log('Total Messages: ' + totalMessagesSent);
 console.log('Average Messages: ' + averageMessageSent);
+
+/*
+Increment and decrement numbers in JavaScript
+
+using `++` and `--` respectively
+*/
+
+let shot_clock = 24;
+let game_time = 10
+
+shot_clock --;
+game_time ++;
+
+console.log(shot_clock);
+console.log(game_time);
