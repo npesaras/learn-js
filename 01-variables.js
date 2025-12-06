@@ -56,8 +56,8 @@ using `++` and `--` respectively
 let shot_clock = 24;
 let game_time = 10
 
-shot_clock --;
-game_time ++;
+shot_clock -= 10;
+game_time += 10;
 
-console.log(shot_clock);
-console.log(game_time);
+console.log(shot_clock); //14
+console.log(game_time); // 20
