@@ -28,11 +28,8 @@ console.log(age); //21
 
 /* =====================================================================
 NUMBERS
-
-Assignment: Textio tracks the number of messages sent for different types of notifications. Between the comments, create a:
-- `totalMessagesSent` variable that contains the total number of messages snet
-- `averageMessageSent` variable that contains the average number of messages sent across all types.
-
+- undefined vs null
+- increment and decrement
 */
 
 const promoMessages = 12;
@@ -71,7 +68,21 @@ null - it (kind of ) exist.
 */
 
 let undefined_name; // no assigned value
-let null_age = null; 
+let null_age = null;
 
 console.log(undefined_name);
 console.log(null_age);
+
+
+/* =====================================================================
+String
+- declare strings
+- Template literals
+*/
+
+let string_name = 'John';
+let msg = 'Hello ${string_name}';
+
+console.log(string_name[string_name.length - 2]);
+
+console.log(msg);
